@@ -19,7 +19,7 @@ public class VariableNaming {
      */
     int c = 100;
 
-    int total_result = first_number + Second_Number;
+    int total = firstNumber + secondNumber;
     int sum = a + x + return;
 
     System.out.println(total_result);
