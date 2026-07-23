@@ -53,6 +53,7 @@ public class UserListFinder{
 }  
 
   // ユーザー退会
+public class UserDeactivator{  
   public void deactivateUser(Long userId) {
     User user = userMapper.findById(userId);
     if (user == null) {
@@ -62,6 +63,7 @@ public class UserListFinder{
     user.setDeleted(true);
     userMapper.update(user);
   }
+}  
 
   // メール存在チェック
   public boolean existsByEmail(String email) {
