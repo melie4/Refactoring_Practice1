@@ -17,7 +17,7 @@ public class VariableNaming {
     /*
      * パターン3
      */
-    int return = 100;
+    int c = 100;
 
     int total_result = first_number + Second_Number;
     int sum = a + x + return;
