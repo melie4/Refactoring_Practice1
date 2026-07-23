@@ -22,7 +22,7 @@ public class VariableNaming {
     int total = firstNumber + secondNumber;
     int sum = a + b + c;
 
-    System.out.println(total_result);
+    System.out.println(total);
     System.out.println(sum);
   }
 }
