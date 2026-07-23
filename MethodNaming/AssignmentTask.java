@@ -4,7 +4,7 @@ public class AssignmentTask {
   /*
    * パターン1
    */
-  public void userMessage(User user) {
+  public void sayUserMessage(User user) {
     System.out.println("Hello, " + user.getName());
   }
 
@@ -18,14 +18,14 @@ public class AssignmentTask {
   /*
    * パターン3
    */
-  public void process(User user) {
+  public void printUserName(User user) {
     System.out.println(user.getName());
   }
 
   /*
    * パターン4
    */
-  public String userName(User user) {
+  public String getUserName(User user) {
     return user.getName();
   }
 
