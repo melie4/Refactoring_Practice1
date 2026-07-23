@@ -22,6 +22,7 @@ public class UserRegistrar{
 }  
 
   // ログイン認証
+public class Login{  
   public User authenticate(LoginForm form) {
     User user = userMapper.findByEmail(form.getEmail());
     if (user == null) {
@@ -34,6 +35,7 @@ public class UserRegistrar{
 
     return user;
   }
+}
 
   // ユーザー一覧取得
   public List<User> getActiveUsers() {
