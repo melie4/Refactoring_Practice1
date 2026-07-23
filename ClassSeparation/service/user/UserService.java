@@ -4,6 +4,7 @@
   private final PasswordEncoder passwordEncoder;
 
   // ユーザー登録
+public class UserRegistrar{  
   public User register(UserRegistrationForm form) {
     User existing = userMapper.findByEmail(form.getEmail());
     if (existing != null) {
@@ -18,6 +19,7 @@
 
     return userMapper.findById(user.getId());
   }
+}  
 
   // ログイン認証
   public User authenticate(LoginForm form) {
