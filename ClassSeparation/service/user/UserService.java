@@ -38,6 +38,7 @@ public class Login{
 }
 
   // ユーザー一覧取得
+public class UserListFinder{ 
   public List<User> getActiveUsers() {
     List<User> users = userMapper.findAll();
     List<User> result = new ArrayList<>();
@@ -49,6 +50,7 @@ public class Login{
     }
     return result;
   }
+}  
 
   // ユーザー退会
   public void deactivateUser(Long userId) {
