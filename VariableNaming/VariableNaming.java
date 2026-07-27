@@ -11,8 +11,8 @@ public class VariableNaming {
     /*
      * パターン2
      */
-    int a = 5;
-    int b = 3;
+    int price1 = 5;
+    int price2 = 3;
 
     /*
      * パターン3
@@ -20,7 +20,7 @@ public class VariableNaming {
     int c = 100;
 
     int total = firstNumber + secondNumber;
-    int sum = a + b + c;
+    int sum = price1 + price2 + c;
 
     System.out.println(total);
     System.out.println(sum);
